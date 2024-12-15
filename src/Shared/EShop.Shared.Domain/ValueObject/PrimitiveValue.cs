@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace EShop.Shared.Domain.ValueObject;
+﻿namespace EShop.Shared.Domain.ValueObject;
 
 public class PrimitiveValue<T> : IEquatable<PrimitiveValue<T>> where T : struct
 {
