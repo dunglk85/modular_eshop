@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Discount.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Discount.IntegrationEvent", "Modules\Discount\EShop.Discount.IntegrationEvent\EShop.Discount.IntegrationEvent.csproj", "{E62C2D4D-8291-4771-A848-A5943E56761D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{422DEA7B-1F28-435C-B05C-13CEFF146F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +171,10 @@ Global
 		{E62C2D4D-8291-4771-A848-A5943E56761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E62C2D4D-8291-4771-A848-A5943E56761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E62C2D4D-8291-4771-A848-A5943E56761D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422DEA7B-1F28-435C-B05C-13CEFF146F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422DEA7B-1F28-435C-B05C-13CEFF146F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422DEA7B-1F28-435C-B05C-13CEFF146F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422DEA7B-1F28-435C-B05C-13CEFF146F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
